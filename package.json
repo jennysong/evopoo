@@ -18,6 +18,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
     "semantic-ui": "^2.2.13"
   }
 }
