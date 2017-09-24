@@ -9,8 +9,7 @@ class RiderApp extends React.Component {
       </div>
     )
   }
-
-
 }
 
 export default RiderApp;
+
