@@ -6,6 +6,9 @@ class RiderApp extends React.Component {
     return (
       <div>
         <Header/>
+        <div className='AppBody'>
+
+        </div>
       </div>
     )
   }
