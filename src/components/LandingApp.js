@@ -1,13 +1,11 @@
 import React from 'react'
 import Header from './Header'
 import Landing from './Landing'
-import "./App.css"
 
-class App extends React.Component {
+class LandingApp extends React.Component {
   render() {
     return (
-      <div id="App">
-        <Header/>
+      <div id="LandingApp">
         <div id='AppBody'>
           <Landing/>
         </div>
@@ -16,4 +14,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default LandingApp

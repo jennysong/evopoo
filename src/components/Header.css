@@ -1,3 +1,12 @@
 #AppHeader {
   position: fixed;
+  left: 0; top: 0; right: 0;
+  height: 60px;
+  background: rgba(30, 47, 73, 0.9);
+  padding: 13px 0; z-index: 10;
+}
+
+#AppHeader .AppLogo {
+  display: block;
+  height: 34px; margin: 0 auto;
 }

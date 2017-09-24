@@ -1,4 +1,32 @@
 #AppLanding {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0; overflow: hidden;
   background: #1e2f49;
-  color: white;
+  color: white; z-index: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#AppLanding .Content {
+  position: relative;
+  z-index: 2;
+  width: 80%; text-align: center;
+}
+
+#AppLanding .AppLogo {
+  height: 80px; margin: 0 0 15px;
+}
+
+#AppLanding .Actions {
+  margin: 15px 0;
+}
+
+#AppLanding .BackgroundImage {
+  position: absolute;
+  left: 0; top: 0; right: 0; bottom: 0;
+  background: url('./Landing-image.jpg');
+  background-size: auto 100%; opacity: 0.25; z-index: 1;
+  background-position: center center;
 }
